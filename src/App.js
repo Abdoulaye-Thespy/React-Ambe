@@ -1,13 +1,27 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import  Nav from './containers/Nav'
+import  MyNav from './containers/Nav'
+import MyCaroussel from './containers/Caroussel'
+import MyParallax from './containers/MyParallax'
+import News from './containers/News'
+import Music from './containers/Music'
 
 function App() {
   return (
 
-    <>
-    <Nav />
-    </>
+    <div className='body'>
+    <MyNav />
+    <MyCaroussel />
+    <News />
+    <MyParallax />
+    <Music  />
+    <MyParallax />
+    <News />
+    <News />
+    <News />
+    
+    </div>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
