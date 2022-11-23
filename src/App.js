@@ -3,9 +3,10 @@ import './App.css';
 import Home from './Pages/Home';
 import Mymusic from './Pages/MyMusic';
 
-function App() {
+export default  function App() {
 
   let Component;
+  // eslint-disable-next-line
   switch(window.location.pathname) {
     case "/":
     Component = <Home/>
@@ -21,5 +22,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
