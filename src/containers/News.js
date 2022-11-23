@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from '../components/Headers';
 import Button from 'react-bootstrap/Button';
+import Ambe from '../images/Ambeportrait.jpeg'
 
 export default function News() {
     return (
@@ -13,7 +14,7 @@ export default function News() {
             <Col>
               <img
                 className="d-block w-100 images-on-news"
-                src='https://images.unsplash.com/photo-1668448388988-a901c54d954e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80'
+                src={Ambe}
                 alt="First slide"
                 />
             </Col>

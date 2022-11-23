@@ -42,7 +42,7 @@ export default function MyNav() {
                   <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
                       <Nav.Link href="#action1" className='white-text montserat-font'>NEWS</Nav.Link>
-                      <Nav.Link href="#action2" className='white-text montserat-font'>MUSIC</Nav.Link>
+                      <Nav.Link href="music" className='white-text montserat-font'>MUSIC</Nav.Link>
                       <Nav.Link href="#action2" className='white-text montserat-font'>VIDEOS</Nav.Link>
                       <Nav.Link href="#action2" className='white-text montserat-font'>LIVE</Nav.Link>
                       <Nav.Link href="#action2" className='white-text montserat-font'>ABOUT</Nav.Link>

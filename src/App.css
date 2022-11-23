@@ -162,3 +162,8 @@
 .listen {
   width: 10rem;
 }
+
+.footer {
+  text-align: center;
+  margin: 15px auto 15px auto;
+}

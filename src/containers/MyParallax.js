@@ -1,9 +1,9 @@
 import { Parallax } from 'react-parallax';
-import palmier from '../images/palmier.jpg'
+import Ambe from '../images/Ambe.jpeg'
 
 export default function MyParallax () {
   return (
-    <Parallax className='img-parallax' bgImage={palmier} bgImageAlt="the cat" strength={600}>
+    <Parallax className='img-parallax' bgImage={Ambe} bgImageAlt="the cat" strength={600}>
 
     </Parallax>
   );
