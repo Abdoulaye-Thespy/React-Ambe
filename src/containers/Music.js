@@ -14,7 +14,7 @@ export default function Music() {
             <Col>
             <div className='music-picture-box'>
                <img
-                className="d-block w-100 images-on-music"
+                className="images-on-music"
                 src={palmier}
                 alt="First slide"
                 />

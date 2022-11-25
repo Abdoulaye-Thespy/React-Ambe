@@ -14,7 +14,7 @@ export default function Video() {
             <Col>
             <div className='music-picture-box-video'>
                <img
-                className="d-block w-100 images-on-music"
+                className="images-on-music"
                 src={palmier}
                 alt="First slide"
                 />
