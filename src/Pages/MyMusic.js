@@ -2,8 +2,7 @@
 import React from 'react';
 import  MyNav from '../containers/Nav'
 import MyParallax from '../containers/MyParallax'
-import Music from '../containers/Music';
-
+import Music from '../containers/Music'
 import Footer from '../containers/Footer';
 
 export default function Mymusic() {
@@ -12,9 +11,8 @@ export default function Mymusic() {
     <div className='body'>
     <MyNav />
     <MyParallax />
-    <Music />
+    <Music  />
     <Footer />
-    
     </div>
   );
 }

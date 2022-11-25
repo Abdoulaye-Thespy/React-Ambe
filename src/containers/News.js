@@ -10,7 +10,7 @@ export default function News() {
      <>
        <Container className='news-section' >
          <Header value="about" />
-         <Row>
+         <Row xs={1} md={1} lg={2}>
             <Col>
               <img
                 className="d-block w-100 images-on-news"
@@ -22,9 +22,9 @@ export default function News() {
               <div className='about-resume'>
                   <h1 className='text-white montserat-font'>WHO'S AMBE</h1>
                   <p className='text-white montserat-font' align="center">
-                  Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.Content goes here.
+                  Ambe Tenbong, better known by his artistic name “Ambe” is a Cameroonian Musician who hails from the northwest region of Cameroon. Ambe has been in the limelight of the Cameroonian and African music industries for over a decade. At the dawn of his musical career in the mid-2000s, he was called Denzyl. He has played a significant role in the promotion of the Anglophone music Industry in Cameroon from his musical debut. 
                   </p>
-                  <Button variant="outline-light" className='continue-reading montserat-font'>Continue Reading</Button>
+                  <a href='/about'>  <Button variant="outline-light" className='continue-reading montserat-font'>Continue Reading</Button></a>
               </div>
                
             </Col>
@@ -32,7 +32,7 @@ export default function News() {
          <Row>
              <Col>
                 <div align="center" className='button-about-me'>
-                <Button variant="outline-danger">READ MORE ABOUT <i>AMBE</i></Button>
+                    <a href='/about'><Button variant="outline-danger">READ MORE ABOUT <i>AMBE</i></Button></a>
                 </div>
              </Col>
          </Row>
